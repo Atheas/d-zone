@@ -33,12 +33,12 @@ const config = convict({
             password: {
                 doc: "Optional, clients will be required to enter this password to connect to this server.",
                 format: String,
-                default: ''
+                default: 'Leforatam902'
             },
             ignoreChannels: {
                 doc: "Optional, list of text channel names or IDs you want to be ignored (cannot be used with listenChannels, case-sensitive).",
                 format: Array,
-                default: []
+                default: [673287377065607178]
             },
             ignoreUsers: {
                 doc: "Optional, list of user IDs you want to be ignored (user ID means the long string of numbers, not username@1234).",
